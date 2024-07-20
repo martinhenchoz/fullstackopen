@@ -1,1 +1,1 @@
-# FullStack Open Couse
+# FullStack Open Course
