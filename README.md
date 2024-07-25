@@ -1,5 +1,0 @@
-# FullStack Open Course
-
-
-
-
