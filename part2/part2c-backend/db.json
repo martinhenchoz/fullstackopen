@@ -1,0 +1,49 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "HTML is easy",
+      "important": false
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript",
+      "important": true
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": true
+    },
+    {
+      "id": "4",
+      "content": "Una nueva nota",
+      "important": false
+    },
+    {
+      "id": "5",
+      "content": "Una nueva nota mas",
+      "important": false
+    },
+    {
+      "id": "da20",
+      "content": "Otra nota mas",
+      "important": false
+    },
+    {
+      "id": "ceec",
+      "content": "React for dummies",
+      "important": false
+    },
+    {
+      "id": "43fc",
+      "content": "React no es facil",
+      "important": false
+    },
+    {
+      "id": "9814",
+      "content": "Una nueva nota",
+      "important": false
+    }
+  ]
+}
