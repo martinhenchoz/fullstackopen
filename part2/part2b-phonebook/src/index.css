@@ -3,16 +3,28 @@ h1 {
   font-style: italic;
 }
 
-.note {
+.person {
   color: grey;
-  padding-top: 3px;
+  margin-bottom: 5px;
   font-size: 15px;
+}
+
+.filter {
+  margin-bottom: 15px;
+}
+
+form > div {
+  margin-bottom: 5px;
+}
+
+.person > button {
+  margin-left: 10px;
 }
 
 .success {
   color: green;
   background: lightgrey;
-  font-size: 20px;
+  font-size: 15px;
   border-style: solid;
   border-radius: 5px;
   padding: 10px;

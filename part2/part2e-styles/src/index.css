@@ -5,8 +5,16 @@ h1 {
 
 li.note {
   color: grey;
-  padding-top: 3px;
+  padding: 5px 0px;
   font-size: 15px;
+}
+
+li > button {
+  margin-left: 10px;
+}
+
+form {
+  margin: 10px 0px;
 }
 
 .error {
