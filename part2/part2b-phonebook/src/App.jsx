@@ -29,17 +29,20 @@ const App = () => {
       if (window.confirm(`${name} is already added to PhoneBook, replace de old number with the new one?`)) {
         const personObject = { ...found[0], number }
         console.log("Updated Person:", personObject)
-        // phonebookService.update(personObject.id, personObject)
-        //   .then(person => {
-        //     setPersons(persons.concat(person))
-        //     setMessage({
-        //       text: `Number for ${name} was updated`,
-        //       type: 'success'
-        //     })
-        //     setTimeout(() => { setMessage({}) }, 5000)
-        //     setName('')
-        //     setNumber('')
-        //   })      
+        phonebookService.update(personObject.id, personObject)
+          .then(person => {
+            const nuevasPersonas = persons.map(p => 
+              p.id === person.id ? person : p
+            )
+            setPersons(nuevasPersonas)
+            setMessage({
+              text: `Number for ${name} was updated`,
+              type: 'success'
+            })
+            setTimeout(() => { setMessage({}) }, 5000)
+            setName('')
+            setNumber('')
+          })      
       }  
     } else {
       const personObject = { name, number }
